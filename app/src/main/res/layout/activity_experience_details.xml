@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/resume10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Educational Details"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <!-- Job Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job Title"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/eTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your job title"/>
+
+    <!-- Company Name -->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company Name"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/eCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the company name"/>
+
+    <!-- Duration -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/eDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the duration of your experience"/>
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
